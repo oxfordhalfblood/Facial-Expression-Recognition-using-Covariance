@@ -5,6 +5,25 @@
 # *    Code version: 1.1
 # ***************************************************************************************/
 
+# ******************************* Preprocess image, train and predict ********************/
+
+# Steps involved:
+
+# Load pretrained VGG16 model, get model weights
+# Extracting features using this trained model
+# Covariance Calculation
+# Matrix Logarithm to get Long Vector
+# Now we get final bottleneck_features
+# Either TRAIN or CLASSIFY based on console argument
+# If TRAIN:
+   # - use SVC and saved classifier model to file
+# If CLASSIFY:
+   # - Loaded saved classifier model from file and predict using this
+   # - calculate best_class_indices to get best_class_probabilities. Use that for getting accuracy
+
+# ***************************************************************************************/
+
+
 import os
 #os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 #os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
