@@ -1,3 +1,10 @@
+# /***************************************************************************************
+# *    Title: Facial Expression Recognition using covariance pooling
+# *    Author: Afrida Tabassum
+# *    Date: 20.11.2019
+# *    Code version: 1.1
+# ***************************************************************************************/
+
 import os
 #os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
 #os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
