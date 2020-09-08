@@ -1,2 +1,3 @@
 # Facial-Expression-Recognition-using-Covariance
-My Masters Thesis
+
+This code was for handling national archives australia photos dataset.
